@@ -34,6 +34,8 @@ class SunoBark:
     ) -> t.Annotated[Path, bentoml.validators.ContentType('audio/*')]:
         import scipy
 
+        voice_preset = voice_preset or None
+
         output_path = os.path.join(context.temp_dir, "output.wav")
         inputs = self.processor(text, voice_preset=voice_preset).to(self.device)
         audio_array = self.model.generate(**inputs)
