@@ -58,6 +58,10 @@ with bentoml.SyncHTTPClient("http://localhost:3000") as client:
     )
 ```
 
+Expected output:
+
+[output-music](/assets/output-bark.wav)
+
 ## Deploy to BentoCloud
 
 After the Service is ready, you can deploy the application to BentoCloud for better management and scalability. [Sign up](https://www.bentoml.com/) if you haven't got a BentoCloud account.
