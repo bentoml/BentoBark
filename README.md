@@ -4,7 +4,7 @@
 
 [Bark](https://github.com/suno-ai/bark) is a transformer-based text-to-audio model created by Suno. Bark can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects.
 
-This is a BentoML example project, demonstrating how to build an audio generation API server using Bark. See [here](https://github.com/bentoml/BentoML?tab=readme-ov-file#%EF%B8%8F-what-you-can-build-with-bentoml) for a full list of BentoML example projects.
+This is a BentoML example project, demonstrating how to build an audio generation API server using Bark. See [here](https://github.com/bentoml/BentoML/tree/main/examples) for a full list of BentoML example projects.
 
 ## Prerequisites
 
